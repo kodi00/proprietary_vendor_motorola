@@ -19,6 +19,39 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "HotwordEnrollmentOKGoogleCS47L35",
+	owner: "motorola",
+	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleCS47L35/HotwordEnrollmentOKGoogleCS47L35.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentTGoogleCS47L35",
+	owner: "motorola",
+	apk: "proprietary/priv-app/HotwordEnrollmentTGoogleCS47L35/HotwordEnrollmentTGoogleCS47L35.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentXGoogleCS47L35",
+	owner: "motorola",
+	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleCS47L35/HotwordEnrollmentXGoogleCS47L35.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+	
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.fingerprint@1.0",
 	owner: "motorola",
